@@ -1,5 +1,5 @@
 # CNAME shovel
-In goes a list of URLs, out comes a list of CNAMEs for resources on those rendered URLs
+In goes a list of URLs, out comes a list of CNAMEs for hostnames found in the rendered URLs.
 
 ### Requirements
 
@@ -9,7 +9,7 @@ In goes a list of URLs, out comes a list of CNAMEs for resources on those render
 
 ### Running
 
-Populate a file in the same directory as `cnameshovel.py` named `url.txt`.  One URL per line, including the `http://` or `https://` 
+Populate a file in the same directory as `cnameshovel.py` named `url.txt`.  One URL per line, including the `http://` or `https://`
 
 Run `python ./cnameshovel.py`
 
